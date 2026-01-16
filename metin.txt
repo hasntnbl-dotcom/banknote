@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>THE UNTOUCHED BANKNOTE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #0b0b0b;
+      color: #e5e5e5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 300;
+      color: #9a9a9a;
+      margin-bottom: 40px;
+    }
+
+    .tagline {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #e5e5e5;
+      border: 1px solid #333;
+      padding: 12px 26px;
+      border-radius: 40px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+
+    .links a:hover {
+      background: #e5e5e5;
+      color: #0b0b0b;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 11px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- LOGO -->
+    <!-- logo.png yerine kendi logo dosyanı koy -->
+    <img src="logo.png" alt="BANKNOTE Logo" class="logo" />
+
+    <!-- TITLE -->
+    <h1>THE UNTOUCHED BANKNOTE</h1>
+    <h2>$BANKNOTE · Solana</h2>
+
+    <!-- TAGLINE -->
+    <div class="tagline">Never touched.</div>
+
+    <!-- LINKS -->
+    <div class="links">
+      <a href="#" target="_blank">Buy</a>
+      <a href="#" target="_blank">Chart</a>
+      <a href="#" target="_blank">X</a>
+      <a href="#" target="_blank">Telegram</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      BANKNOTE is a meme coin with no intrinsic value.
+    </footer>
+
+  </div>
+</body>
+</html>
